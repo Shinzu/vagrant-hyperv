@@ -8,7 +8,7 @@ Window 10 Pro with Hyper V enabled
 
 ## Hyper V setup
 
-Since Hyper V on Win10 comes with the so called "Default" Network switch that changes his network range on every reboot, we crate first a natted Network with an statis ip range.
+Since Hyper V on Win10 comes with the so called "Default" Network switch that changes his network range on every reboot, we crate first a natted Network with an static ip range.
 
 This network has no dhcp enabled so you need care of the ip assignment in the vm by yourself.
 
