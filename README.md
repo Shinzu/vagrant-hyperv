@@ -64,7 +64,7 @@ You can use the netplan file from this repo or set it up an other way you like.
 If you plan to use the VM for eg a libvirt setup aka nested VM, disable mac address spoofing:
 
 ```
-Set-VMNetworkAdapter -VMName ubuntu1804_default_1549232307708_78234 -MacAddressSpoofing off
+Set-VMNetworkAdapter -VMName <vm name> -MacAddressSpoofing off
 ```
 
 ## Speedup VM boot
